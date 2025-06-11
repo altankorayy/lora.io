@@ -38,16 +38,45 @@
 
 <strong>Face Data and User Photos</strong>
 
-<p>The Application includes features that utilize facial data and user-uploaded photos. Facial data (image scans, feature maps) is considered biometric data under applicable law:</p>
+<p>The Application includes features that utilize facial data and user-uploaded photos for AI image generation purposes. Facial data (image scans, feature maps) is considered biometric data under applicable law:</p>
 
+<strong>What Face Data We Collect:</strong>
+<p>The Application collects user-uploaded photos that contain facial features. These photos are provided voluntarily by users through the app's photo upload functionality for the purpose of AI-generated image creation.</p>
+
+<strong>Complete Explanation of Face Data Uses:</strong>
+<p>We use collected face data exclusively for the following purposes:</p>
+<ul>
+    <li>AI Image Generation: Processing uploaded photos to create personalized AI-generated images and avatars</li>
+    <li>Service Delivery: Enabling the core functionality of our AI photo generation service</li>
+    <li>User Experience: Allowing users to generate multiple images based on their uploaded photos without re-uploading</li>
+</ul>
+
+<strong>Data Collection, Storage and Sharing:</strong>
 <ul>
     <li><strong>Legal Basis & Consent:</strong> We process your biometric data only after obtaining your explicit consent. You can withdraw consent at any time via the app's Help Center or by emailing altankoraybenli@gmail.com.</li>
     <li><strong>Local Processing:</strong> Any face data captured in real-time (e.g., camera preview) is processed solely on your device and is not retained.</li>
-    <li><strong>Uploaded Photo Storage:</strong> Photos you upload for avatar or image generation are stored on Firebase Storage under the default security settings provided by Firebase. These are used only to streamline repeat usage and are not shared with third parties except as required for AI processing.</li>
-    <li><strong>Transmission to AI Service:</strong> To generate your custom image, we share the URL of your stored photo with our AI image generation service. Only the photo URL is transmitted; no additional metadata or personal identifiers are shared.</li>
+    <li><strong>Photo Storage Location:</strong> User-uploaded photos are stored securely on Firebase Storage with default security settings provided by Firebase, including encrypted connections and access controls.</li>
+    <li><strong>Third-Party Sharing:</strong> Photos are shared only with our AI image generation service provider through secure URL transmission. Only the photo URL is transmitted; no additional metadata or personal identifiers are shared. The AI service processes the image for generation purposes only.</li>
+    <li><strong>API Service Processing:</strong> The AI service receives the photo URL to generate custom images. All data on the AI service is automatically deleted within 1 hour after processing.</li>
+</ul>
+
+<strong>Data Retention Periods:</strong>
+<ul>
+    <li><strong>Firebase Storage:</strong> User photos stored in Firebase Storage are automatically deleted every 30 days through our automated cleanup process.</li>
+    <li><strong>AI Service:</strong> All face data and generated images on our AI processing service are permanently deleted within 1 hour after generation completion.</li>
+    <li><strong>User-Requested Deletion:</strong> Users can request immediate deletion of their face data at any time by contacting altankoraybenli@gmail.com.</li>
+</ul>
+
+<strong>User Rights and Controls:</strong>
+<ul>
     <li><strong>Access, Correction & Erasure:</strong> You have the right to access, correct or request deletion of your face data and photos. Submit a request via the app's Help Center or by contacting us at altankoraybenli@gmail.com. We will respond within 30 days.</li>
-    <li><strong>Security Controls:</strong> We rely on Firebase's security measures for data protection, including access controls and encrypted connections.</li>
-    <li><strong>Breach Notification:</strong> In the event of a data breach affecting facial data, we will notify affected users and authorities (e.g., KVKK, GDPR regulators) as required by law.</li>
+    <li><strong>Consent Withdrawal:</strong> You can withdraw your consent for face data processing at any time, which will result in immediate cessation of processing and deletion of stored data.</li>
+</ul>
+
+<strong>Security and Protection:</strong>
+<ul>
+    <li><strong>Security Controls:</strong> We rely on Firebase's enterprise-grade security measures for data protection, including access controls, encrypted connections, and secure data transmission protocols.</li>
+    <li><strong>Breach Notification:</strong> In the event of a data breach affecting facial data, we will notify affected users and authorities (e.g., KVKK, GDPR regulators) as required by law within 72 hours of discovery.</li>
     <li><strong>Children's Biometric Data:</strong> We do not knowingly process biometric data of children under 13. For users aged 13–16, we obtain parental consent and provide additional transparency measures.</li>
 </ul>
 
